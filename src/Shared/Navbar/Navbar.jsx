@@ -33,7 +33,7 @@ const Navbar = () => {
 
                         </ul>
                     </div>
-                    <img className='w-8 h-8  m-6 rounded-2xl' src={logo} alt="" />
+                    <img className='w-10 h-10  m-6 rounded-2xl' src={logo} alt="" />
                     <div className="navbar-start hidden lg:flex">
                         <ul className="menu menu-horizontal px-5">
                             {nav}
@@ -50,10 +50,11 @@ const Navbar = () => {
                     </a>
                     <li><NavLink to='/contact' className='text-orange-300 font-normal md:text-white text-base bg-transparent'
 
-                    >Sign up</NavLink></li>
+                    >Login</NavLink></li>
                     <li><NavLink to='/contact' className='text-orange-300 font-normal md:text-white text-base bg-transparent'
 
-                    >Login</NavLink></li>
+                    >Sign up</NavLink></li>
+
                 </div>
             </div>
         </div>
