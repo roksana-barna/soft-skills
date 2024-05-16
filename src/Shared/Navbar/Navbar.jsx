@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../../assets/Logo.png'
-
+import './Navbar.css'
 const Navbar = () => {
 
     const nav =
@@ -13,12 +13,12 @@ const Navbar = () => {
 
             <li><NavLink to='/about' className=' font-normal  md:text-white text-base bg-transparent'
 
-            >About</NavLink></li>
+            >About Us</NavLink></li>
 
 
             <li><NavLink to='/contact' className='text-orange-300 font-normal md:text-white text-base bg-transparent'
 
-            >Contact</NavLink></li>
+            >Contact Us</NavLink></li>
         </div>
     return (
         <div className=''>
@@ -44,16 +44,16 @@ const Navbar = () => {
                 <div className="navbar-end">
                     <a
                         href="#"
-                        className=" border-gradient inline-block text-xs px-4 py-2 font-thin text-white border-2 mt-4 border-transparent border-red-300 rounded-lg transition duration-300 hover:border-gradient"
+                        className="  border-gradient inline-block lg:text-md lg:mt-8   font-bold text-black pt-4 lg:px-10  btn border rounded-full transition duration-300 "
                     >
-                        Start Writing
+                        Log in
                     </a>
-                    <li><NavLink to='/contact' className='text-orange-300 font-normal md:text-white text-base bg-transparent'
-
-                    >Login</NavLink></li>
-                    <li><NavLink to='/contact' className='text-orange-300 font-normal md:text-white text-base bg-transparent'
-
-                    >Sign up</NavLink></li>
+                    <a
+                        href="#"
+                        className=" bg-black p-2 inline-block text-sm  lg:text-md lg:px-6 text-md lg:mt-8  lg:pt-3 lg:py-3 font-thin text-blue-600 ml-4 border-2 rounded-full border-blue-600  transition duration-300 hover:border-gradient"
+                    >
+                        Sign Up
+                    </a>
 
                 </div>
             </div>

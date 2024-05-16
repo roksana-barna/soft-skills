@@ -25,7 +25,7 @@ const Footer = () => {
                 <div className="flex flex-col">
                 </div>
                 <div className="flex flex-col">
-                    <h4 className="text-lg font-bold mb-4">Contact Information</h4>
+                    <h4 className="text-lg font-bold mb-4 ">Contact Information</h4>
                     <a href="#">Email: support@budgetbscope.com</a>
                     <a href="#">Phone: +44 123456789</a>
                     <a href="#">Working Hours: Monday - Friday 00-24 (CET),<br /> Weekends 9:00 - 17:00 (CET)</a>

@@ -7,13 +7,13 @@ const Banner = () => {
   return (
     <div>
       <div className="bg-black text-gradient   text-white p-8 text-center">
-        <h1 className="lg:text-6xl md:text-3xl sm:text-3xl  font-bold mb-2 lg:mt-20">Maximize Your Potential with Our Soft </h1>
+        <h1 className="lg:text-6xl md:text-3xl text-3xl  font-bold mb-2 lg:mt-20">Maximize Your Potential with Our Soft </h1>
          <Slide triggerOnce>
-        <h1 className="lg:text-6xl sm:text-3xl font-bold mb-2 mt-6" style={{ background: 'linear-gradient(45deg, #2CD4F8,#9747FF)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+        <h1 className="lg:text-6xl text-3xl font-bold mb-2 mt-6" style={{ background: 'linear-gradient(45deg, #2CD4F8,#9747FF)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
         Skills Courses!
         </h1>
         </Slide>
-        <p className='mb-3 font-thin text-lg mt-6'>Discover the key to unlocking your full potential through our comprehensive soft skills courses. Elevate your<br/> career prospects, enhance personal growth, and excel in every aspect of life. </p>
+        <p className='mb-3 font-thin lg:text-lg text-sm mt-6'>Discover the key to unlocking your full potential through our comprehensive soft skills courses. Elevate your<br/> career prospects, enhance personal growth, and excel in every aspect of life. </p>
         <div>
           <Link
           className=" border-gradient inline-block text-md mt-8   font-thin text-white pt-4 px-10  btn border rounded-full transition duration-300 "
