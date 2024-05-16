@@ -5,7 +5,7 @@ const ContactUs = () => {
         <div className='lg:flex justify-evenly'>
             <div className='bg-black text-white'>
                 <h2 className='uppercase text-white text-center font-semibold text-xl pt-16 pb-4'>Get  <span className=' text-white font-thin lowercase mt-2 italic'>in </span> touch</h2>
-                <p className='pb-10'>Our team is here to assist.</p>
+                <p className='pb-10 ml-4'>Our team is here to assist.</p>
                 <div className='text-center'>
                     <form>
                         <label>First Name</label><br />
@@ -19,7 +19,7 @@ const ContactUs = () => {
                         <label>Message</label><br />
                         <textarea className='h-20 w-96 rounded-xl bg-white p-2' placeholder='message' name="message" /><br />
 
-                        <input className="border-gradient inline-block text-md mt-8   font-thin text-white  px-10  btn border rounded-full transition duration-300 " type="submit" value="Send" />
+                        <input className="border-gradient inline-block text-md mt-8 mb-4  font-thin text-white  px-10  btn border rounded-full transition duration-300 " type="submit" value="Send" />
                     </form>
                 </div>
             </div>
